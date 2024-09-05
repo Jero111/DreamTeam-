@@ -40,6 +40,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: 421cde829b42570418300b6aebce9609, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_1d7c4c9dfcac4dde9eeedc452f3e2043_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 066e3726950d05042a490115e779c5df, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -60,13 +68,14 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _AlphaToMask: 0
-    - _AngularSpeed: 90
+    - _AngularSpeed: 80
     - _Blend: 0
     - _CastShadows: 1
     - _CicleTiling: 5
     - _ColorChange: 1
     - _Cull: 2
     - _DstBlend: 10
+    - _NormalScale: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SrcBlend: 5
@@ -77,4 +86,5 @@ Material:
     - _opacity: 0.5
     m_Colors:
     - _CircleParameter: {r: 0.6, g: 0.26, b: 0, a: 0}
+    - _RoughnesParameters: {r: 0.5, g: 5, b: 0, a: 0}
   m_BuildTextureStacks: []
